@@ -1,7 +1,9 @@
 // calcular a soma do array
-let num= [1,2,3,4]
-res=0
+const num = [1,2,3,4];
+let soma = 0; 
+
 for (let i = 0; i < num.length; i++) {
-  res += num[i];
+  soma += num[i]; 
 }
-console.log(res)
+
+console.log(soma); 
