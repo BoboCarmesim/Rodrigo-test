@@ -1,3 +1,7 @@
-var a =2;
-var b =3;
-console.log("A variavel a é:",a,"é par e a variavel",b,"é impar")
+var num =3;
+if (num % 2== 0){
+    console.log("O numero é par")
+}
+else{
+     console.log("O numero é impar")
+}

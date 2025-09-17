@@ -1,3 +1,9 @@
-var a=12;
-var b=30;
-console.log("A idade",a,"é menor de idade e",b,"é maior de idade")
+var idade = 25
+
+if (idade >= 18) {
+    console.log("Maior de idade")
+}
+
+else {
+    console.log("Menor de idade")
+}
